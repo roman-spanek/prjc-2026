@@ -43,6 +43,11 @@
 build/
 Build/
 build-*/
+cmake-build-*/
+
+# CLion / JetBrains IDE
+.idea/
+*.iml
 
 # CMake generated files
 CMakeFiles/
@@ -57,6 +62,15 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+*.swo
+*~
+
+# C/C++ tooling
+.clangd/
+.cache-clangd/
+*.gcda
+*.gcno
+*.profraw
 
 # vcpkg
 vcpkg_installed/
