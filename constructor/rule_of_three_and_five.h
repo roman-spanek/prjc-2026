@@ -1,0 +1,8 @@
+//
+// Created by roman on 11/05/2026.
+//
+
+#ifndef PRJC_2026_RULE_OF_THREE_AND_FIVE_H
+#define PRJC_2026_RULE_OF_THREE_AND_FIVE_H
+
+#endif //PRJC_2026_RULE_OF_THREE_AND_FIVE_H
