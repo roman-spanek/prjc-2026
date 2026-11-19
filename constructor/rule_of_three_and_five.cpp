@@ -10,9 +10,13 @@
 void my_string::print() {
     std::cout << str << std::endl;
 }
-
+/*
 my_string::my_string(char *_str) : str(new char[std::strlen(_str) + 1]){
     std::memcpy(str, _str, std::strlen(_str) + 1);
+}*/
+
+my_string::my_string(char *_str) {
+    this->str = _str;
 }
 
 my_string::~my_string() {

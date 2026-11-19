@@ -5,8 +5,15 @@
 #include "rule_of_three_and_five.h"
 
 int main() {
-    my_string *s = new my_string("AHOJ");
-    s->print();
-    delete(s);
+    char str[] = "AHOJ";
+
+    my_string *s = new my_string(str);
+    s->print();          // AHOJ
+
+    str[0] = 'a';
+
+    s->print();          // AHOJ (should remain unchanged)
+
+    delete s;
     s = nullptr;
 }

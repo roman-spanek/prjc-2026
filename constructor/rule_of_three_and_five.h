@@ -11,12 +11,9 @@ private:
     char *str;
     std::size_t len;
 public:
-    my_string(char *str = "");
+    my_string(char *str);
     void print();
     ~my_string();
-
-
-
 };
 
 
